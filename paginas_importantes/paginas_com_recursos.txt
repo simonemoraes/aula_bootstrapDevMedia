@@ -1,0 +1,12 @@
+http://bootboxjs.com/
+http://bootswatch.com/
+http://www.layoutit.com/
+http://goodybag.github.io/bootstrap-notify/
+http://tarruda.github.io/bootstrap-datetimepicker/
+https://moqups.com/ -- para fazer o esboço do projeto
+https://www.google.com/fonts - modelo de fontes
+http://subtlepatterns.com/ -- modelos de fundos de tela
+http://startbootstrap.com/ -- exemplos de themas
+http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/ - plugins
+
+

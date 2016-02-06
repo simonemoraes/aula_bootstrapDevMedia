@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!-- 
+
+tamanho de monitor:
+Muito pequeno:  até 750px       - class: col-xs-1 até 12
+Pequeno:        750 até 970px   - class: col-sm-1 até 12
+Medio:          970 até 1170px  - class: col-md-1 até 12
+Grande:         acima de 1170px - class: col-lg-1 até 12
+
+-->
+
+<html>
+    <head>
+        <title>Curso Bootstrap3 - DevMedia</title>
+        <meta charset="UTF-8">
+
+        <!-- define a viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- adicionar CSS Bootstrap -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">  
+
+        <!-- CSS personalizado -->
+        <link href = "../css/estilo.css" rel = "stylesheet" media = "screen">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                   
+                    <p class="lead">O texto expositivo pode apresentar recursos como a:</p>
+                    <p class="text-uppercase text-muted">
+                        - instrução, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                    </p>
+                    
+                    <p class="text-uppercase text-primary">
+                        - instrução, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                    </p>
+                    
+                    <p class="text-uppercase text-success">
+                        - instrução, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                    </p>
+                    
+                    <p class="text-uppercase text-info">
+                        - instrução, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                    </p>
+                    
+                    <p class="text-uppercase text-warning">
+                        - instrução, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                    </p>
+                    
+                    <p class="text-uppercase text-danger">
+                        - instrução, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                    </p>
+                    
+                </div>              
+                <!-- <Blockquote> - Bloco de Citação -->
+                <div class="col-xs-12">
+                    <blockquote class="pull-right">
+                    <p>A verdade nunca é plena, mata a alma e envenena</p> 
+                    <small>Dito por: <cite title="Dito no programa do Chaves">Chaves</cite></small>
+                    </blockquote>
+                </div>
+                
+                <!-- Trabalhando com listas tradicional -->
+                <div class="col-xs-12">
+                    <p><u>Lista Padrão</u></p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                    </ul>
+                    
+                <p><u>Lista Sem a marcação, uma embaixo da outra</u></p>
+                    <ul class="list-unstyled">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                    </ul>
+                    
+                <p><u>Lista Sem a marcação, uma ao lado da outra</u></p>
+                    <ul class="list-inline">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                        <li>Item 6</li>
+                    </ul>
+                </div>
+                
+                <!-- Lista Título de Descrição - Texto informativo -->
+                <div>
+                    <dl>
+                        <dt>Título da notícia</dt>
+                        <dd class="text-uppercase text-primary">Breve texto descrevendo a notícia</dd>
+                    </dl>
+                </div>
+                
+                <div>
+                    <dl class="dl-horizontal">
+                        <dt>Título da notícia</dt>
+                        <dd class="text-uppercase text-danger">Breve texto descrevendo a notícia</dd>
+                    </dl>
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="../js/jquery-1.11.3.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jscript.js"></script>        
+    </body>
+</html>

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* CSS personalizado */
+
+body {
+    background: white;
+    padding-top: 5px;
+    
+}
+
+.container {
+   margin-top: 20px; 
+   background: white;
+   width: 96%;
+}
+
+.linhaCinza {
+    background: gray;
+}
+
+.primeiraColuna {
+    background: red;
+}
+.segundaColuna {
+    background: blue;
+}
+.terceiraColuna {
+    background: green;
+}
+
+.tabela {
+    margin-top: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+.botao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-color-padding p {
+    padding: 15px;
+}
+
+#navPrincipal {
+  
+}
+
+#li {
+   color: black; 
+}
+

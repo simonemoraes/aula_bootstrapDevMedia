@@ -1,0 +1,94 @@
+<!-- Aula 7 - Tipografia -->
+
+<!DOCTYPE html>
+
+<!-- 
+
+tamanho de monitor:
+Muito pequeno:  até 750px       - class: col-xs-1 até 12
+Pequeno:        750 até 970px   - class: col-sm-1 até 12
+Medio:          970 até 1170px  - class: col-md-1 até 12
+Grande:         acima de 1170px - class: col-lg-1 até 12
+
+-->
+
+<html>
+    <head>
+        <title>Curso Bootstrap3 - DevMedia</title>
+        <meta charset="UTF-8">
+
+        <!-- define a viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- adicionar CSS Bootstrap -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">  
+
+        <!-- CSS personalizado -->
+        <link href = "../css/estilo.css" rel = "stylesheet" media = "screen">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Maior título<small>frase explicativa do texto</small></h1>
+
+                    <!-- o <lead> é usado para dar destaque ao texto -->
+                    <!-- o <mark> é usado para salientar um texto -->
+                    <!-- o <del> é usado como informativo de deleção de trecho(fica riscado) -->
+                    <!-- o <ins> é usado para informar que o texto foi inserido -->
+                    <!-- o <u> tem o efeito do underline -->
+                    
+                    <p class="lead">O texto expositivo pode apresentar recursos como a:</p>
+                    <p class="text-justify text-capitalize">
+                        - <mark>instrução</mark>, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                        - descrição, quando apresenta informações sobre as características do que está sendo apresentado;<br>
+                        - definição, quando queremos deixar claro para o nosso leitor do que, exatamente, estamos falando;<br>
+                        - enumeração, quando envolve a identificação e apresentação sequencial de informações referentes àquilo 
+                        que estamos escrevendo;<br>
+                        - comparação, quando o <u>autor</u> quer garantir que seu leitor irá compreender bem o que ele quer dizer;<br>
+                        - o contraste, quando, ao analisar determinada questão, o autor do texto deseja mostrar que ela pode ser 
+                        observada por mais de um ângulo, ou que há posições <del>contrárias.</del><br>
+                    </p>
+
+                    <p class="lead">O texto expositivo pode apresentar recursos como a:</p>
+                    <p class="text-uppercase">
+                        - <mark>instrução</mark>, quando apresenta instruções a serem seguidas;<br>
+                        - informação, quando apresenta informações sobre o que é apresentado e/ou discutido;<br>
+                        - descrição, quando apresenta informações sobre as características do que está sendo apresentado;<br>
+                        - definição, quando queremos deixar claro para o nosso leitor do que, exatamente, estamos falando;<br>
+                        - enumeração, quando envolve a identificação e apresentação sequencial de informações referentes àquilo 
+                        que estamos escrevendo;<br>
+                        - comparação, quando o <u>autor</u> quer garantir que seu leitor irá compreender bem o que ele quer dizer;<br>
+                        - o contraste, quando, ao analisar determinada questão, o autor do texto deseja mostrar que ela pode ser 
+                        observada por mais de um ângulo, ou que há posições <del>contrárias.</del><br>
+                    </p>
+                    
+                    <p>texto texto texto texto texto texto texto <abbr title="Este texto foi abreviado">texto</abbr> </p>
+                    
+                    <!-- Bloco de endereços -->
+                    <address>
+                        <strong>DevMedia Bootstrap</strong><br>
+                        texto texto texto texto texto texto <br>
+                        texto texto texto texto texto texto <br>
+                        texto texto texto texto texto texto <br>
+                        texto texto texto texto texto texto <br>
+                        
+                        <abbr title="Telefone">Tel:9999-99999</abbr>                       
+                    </address>
+                    
+                    <h2>Sub titulo 2<small>frase explicativa do texto</small></h2>
+                    <h3>Sub titulo 3<small>frase explicativa do texto</small></h3>
+                    <h4>Sub titulo 4<small>frase explicativa do texto</small></h4>
+                    <h5>Sub titulo 5<small>frase explicativa do texto</small></h5>
+                    <h6>Sub titulo 6<small>frase explicativa do texto</small></h6>
+                </div>
+            </div>
+        </div>
+
+        <script src="../js/jquery-1.11.3.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jscript.js"></script>  
+    </body>
+</html>
