@@ -16,12 +16,21 @@ $(function(){
         trigger : 'click'
     });
     
+    /*
     $(".ppv").popover({
         title : "Título do popover",
         trigger : 'hover focus'
     });
+    */
+   
+    $(".ppv").click(function (){
+        this.popover({
+        title : "Título do popover",
+        trigger : 'hover focus'
+        });
+    });
     
-    $(".btnjs").button();
+    //$(".btnjs").button();
     
     $("#troca-estado").click(function(){
         var btn = $(this);
@@ -29,7 +38,7 @@ $(function(){
         
         setTimeout(function(){
             btn.button("reset");
-        }, 3000);
+        }, 5000);
         
     });
     
